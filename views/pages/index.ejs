@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?v=4.1.8"></script>
+
+    <title>Fact Checker Application</title>
+  </head>
+  <body
+    class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4"
+  >
+    <div class="bg-white p-8 rounded-lg shadow-xl max-w-md w-full text-center">
+      <h1 class="text-4xl font-extrabold text-blue-700 mb-4">Fact Checker</h1>
+      <p class="text-gray-700 mb-4 text-lg">
+        This app lets you check if information, whether in the format of text,
+        image, audio, or video, is correct or not.
+      </p>
+      <p class="text-gray-600 mb-8 text-md italic">
+        It uses a Gemini AI model to process the information, then gives you the
+        final result!
+      </p>
+
+      <button
+        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+      >
+        <a href="/process">Get Started</a>
+      </button>
+    </div>
+  </body>
+</html>

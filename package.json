@@ -1,0 +1,22 @@
+{
+  "name": "fact-checker-api",
+  "module": "index.ts",
+  "scripts": {
+    "dev": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/speech": "^7.2.0",
+    "@google/generative-ai": "^0.24.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
